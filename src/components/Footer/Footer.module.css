@@ -1,3 +1,23 @@
 .footer {
-    width: 100vw;
+    width: 100%;
+    display: grid;
+    grid-auto-rows: min-content;
+    place-items: center;
+}
+
+.Logo {
+    margin: 5vw 0;
+    width: 70%;
+    display: grid;
+    place-items: center;
+}
+
+@media (min-width: 601px) {
+
+    .Logo {
+        place-self: start;
+        width: 20%;
+        margin: 0;
+    }
+    
 }

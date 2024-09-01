@@ -5,6 +5,7 @@ import Demo01 from '../components/demo01/demo01';
 import AboutSection from '../components/AboutSection/AboutSection';
 import ServiceSection from '../components/ServiceSection/ServiceSection';
 import CostSection from '../components/CostSection/CostSection';
+import InviteSection from '../components/InviteSection/InviteSection';
 
 const IndexPage = () => {
     return (
@@ -13,6 +14,7 @@ const IndexPage = () => {
         <AboutSection />
         <ServiceSection />
         <CostSection />
+        <InviteSection />
       </Layout>
     );
   };

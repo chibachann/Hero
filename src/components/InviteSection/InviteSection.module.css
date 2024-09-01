@@ -1,16 +1,16 @@
 .Section {
     width: 100%;
-    height:100vh;
+    height: 60vh;
     position: relative;
     top: 0px;
-    z-index: 1;
+    z-index: 300;
 }
 
 .Grid {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(6, 1fr);
-    height: 100vh;
+    height: 60vh;
     width: 100%;
     position: relative;
 }
@@ -19,30 +19,22 @@
     grid-column: 1/-1;
     grid-row: 1/-1;
     width: 100%;
-    height: 100vh;
+    height: 60vh;
     overflow: hidden;
 }
 .Background img {
-    width: 150%;
+    width: 100%;
     height: 100%;
     object-fit: cover;
-    animation: moveHorizontal 40s infinite linear;
 }
-@keyframes moveHorizontal {
-    0% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(-20%); /* 左に20%移動 */
-    }
-}
+
 
 
 .Title {
     place-self: center;
     font-family: var(--font-family-gothic);
     grid-column: 1/-1;
-    grid-row: 5/7;
+    grid-row: 1/7;
     width: 90%;
     height: 90%;
     color: white;
@@ -50,7 +42,7 @@
     display: grid;
     justify-items: start;
     grid-auto-rows: min-content;
-    overflow: hidden;
+    
 }
 .Title h1 {
     font-size: 3rem;
@@ -62,10 +54,9 @@
 }
 
 .Title h2 {
-    margin-top: 1rem;
-    padding-left: 10px;
-    font-size: 1rem;
-    font-weight: 300;
+    margin: 3rem 0;
+    font-size: 1.2rem;
+    font-weight: 600;
     font-family: var(--font-family-gothic);
     animation: slideTextX30 1s 0.5s forwards;
     opacity: 0;
@@ -73,6 +64,7 @@
 .Title h2 br {
     display: none;
 }
+
 
 @keyframes slideTextX50 {
     from {
@@ -98,22 +90,23 @@
   }
 
 @media (min-width: 581px) {
-    .Section {
-        height: max(100vh, 600px);
-    }
     .Title {
-        grid-row: 4/7;
+        grid-row: 2/5;
     }
     .Title h1 {
-        font-size: min(6rem, 12vw);
-        
+        font-size: min(5rem, 8vw);
     }
     .Title h2 {
         font-size: min(1.5rem, 3vw);
-        
     }
     .Title br {
         display: block;
+    }
+    .Title p {
+        width: 50%;
+        margin-top: 0em;
+        font-size: 1rem;
+        line-height: 1.8;
     }
 }
 
@@ -122,13 +115,19 @@
         grid-template-columns: repeat(12, 1fr);
     }
     .Title {
-        grid-row: 4/7;
+        grid-column: 1/-1;
+        grid-row: 2/5;
     }
     .Title h1 {
-        font-size: 8rem;
+        font-size: 6rem;
     }
     .Title h2 {
         font-size: 1.5rem;
     }
-    
+    .Title p {
+        width: 50%;
+        margin-top: 0rem;
+        font-size: 1.2rem;
+        line-height: 2;
+    }
 }
