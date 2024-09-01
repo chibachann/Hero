@@ -1,6 +1,6 @@
 .Section {
     width: 100%;
-    position: sticky;
+    position: relative;
     top: 0px;
     z-index: 200;
     background-color:#222;

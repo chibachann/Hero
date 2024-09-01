@@ -2,9 +2,9 @@ import * as React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import Layout from '../components/layout';
 import Demo01 from '../components/demo01/demo01';
-import Sticky from '../components/sticky/sticky';
 import AboutSection from '../components/AboutSection/AboutSection';
 import ServiceSection from '../components/ServiceSection/ServiceSection';
+import CostSection from '../components/CostSection/CostSection';
 
 const IndexPage = () => {
     return (
@@ -12,6 +12,7 @@ const IndexPage = () => {
         <Demo01 />
         <AboutSection />
         <ServiceSection />
+        <CostSection />
       </Layout>
     );
   };
