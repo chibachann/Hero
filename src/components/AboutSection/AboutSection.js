@@ -11,7 +11,7 @@ const AboutSection = () => {
                     <h1>これからのWebサイトは<br/>
                         信頼と安心を
                     </h1>
-                    <img className={styles.Icon} src="/images/smoke01.jpg" alt="background" />
+                    <img className={styles.Icon} src="/images/01.jpg" alt="background" />
                     <p>
                         「宣伝のために」<br/>
                         「情報を発信するために」<br/>

@@ -13,14 +13,13 @@ const ServiceSection = () => {
                         お客様がよりWebサイトを手軽に依頼できるよう、低価格、高品質をモットーにWebサイト制作を行っています。
                         価格を超えるデザインとSEO対策を中心とした 運用サポートによってビジネスを加速させるお手伝いをいたします。
                          マーケティングなど各種プロモーションを通して、より付加価値の高いWebサービスを提供していきます。
-                         お客様の課題に取り組み、目に見える成果を生み出しています。
                     </p>
                 </div>
                
                
                <div className={styles.Container}>
                     <div className={styles.Card}>
-                        <img src="/images/kaku01.jpg" alt="icon" />
+                        <img src="/images/seisaku.jpg" alt="icon" />
                         <h2>Webページ制作</h2>
                         <p>
                             お客様のビジネスに合わせたWebページを制作いたします。
@@ -29,7 +28,7 @@ const ServiceSection = () => {
                         </p>
                     </div>
                     <div className={styles.Card}>
-                        <img src="/images/kaku01.jpg" alt="icon" />
+                        <img src="/images/sabsuku.jpg" alt="icon" />
                         <h2>サブスク型Webページ制作</h2>
                         <p>
                             より手軽にWebページを運用したいお客様に向けたサービスです。
@@ -49,7 +48,7 @@ const ServiceSection = () => {
                     </h2>
                     <div className={styles.FlowContainer}>
                         <div className={styles.FlowCard}>
-                            <img src="/images/kaku01.jpg" alt="icon" />
+                            <img src="/images/toi.jpg" alt="icon" />
                             <div className={styles.FlowText}>
                                 <h3>
                                     お問い合わせ
@@ -60,7 +59,7 @@ const ServiceSection = () => {
                             </div>
                         </div>
                         <div className={styles.FlowCard}>
-                            <img src="/images/kaku01.jpg" alt="icon" />
+                            <img src="/images/mitu.jpg" alt="icon" />
                             <div className={styles.FlowText}>
                                 <h3>
                                     お見積り、デザイン提案
@@ -71,7 +70,7 @@ const ServiceSection = () => {
                             </div>
                         </div>
                         <div className={styles.FlowCard}>
-                            <img src="/images/kaku01.jpg" alt="icon" />
+                            <img src="/images/kaihatu.jpg" alt="icon" />
                             <div className={styles.FlowText}>
                                 <h3>
                                     制作、開発
@@ -82,7 +81,7 @@ const ServiceSection = () => {
                             </div>
                         </div>
                         <div className={styles.FlowCard}>
-                            <img src="/images/kaku01.jpg" alt="icon" />
+                            <img src="/images/nouhin.jpg" alt="icon" />
                             <div className={styles.FlowText}>
                                 <h3>
                                     納品
@@ -99,7 +98,7 @@ const ServiceSection = () => {
                     </h2>
                     <div className={styles.FlowContainer}>
                         <div className={styles.FlowCard}>
-                            <img src="/images/kaku01.jpg" alt="icon" />
+                            <img src="/images/sentaku.jpg" alt="icon" />
                             <div className={styles.FlowText}>
                                 <h3>
                                     プラン選択
@@ -110,7 +109,7 @@ const ServiceSection = () => {
                             </div>
                         </div>
                         <div className={styles.FlowCard}>
-                            <img src="/images/kaku01.jpg" alt="icon" />
+                            <img src="/images/siharai.jpg" alt="icon" />
                             <div className={styles.FlowText}>
                                 <h3>
                                     お支払い
@@ -122,7 +121,7 @@ const ServiceSection = () => {
                             </div>
                         </div>
                         <div className={styles.FlowCard}>
-                            <img src="/images/kaku01.jpg" alt="icon" />
+                            <img src="/images/unyou.jpg" alt="icon" />
                             <div className={styles.FlowText}>
                                 <h3>
                                     運用

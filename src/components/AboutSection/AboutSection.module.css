@@ -58,12 +58,12 @@
 .Icon {
     grid-column: 1/-1;
     grid-row: 3/4;
-    background-color: whitesmoke;
     border-radius: 16px;
     width: 90%;
     height: 60vw;
     margin: 5vw 0;
     place-self: center;
+    object-fit: contain;
 }
 
 @media (min-width: 601px) {
